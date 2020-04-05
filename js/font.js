@@ -102,6 +102,7 @@ function show(fontNode) {
     });
     $('.close-btn,.btn-cancel').click(()=>{
         $('.notepad-dlg-mask').remove();
+        $('#lid').css('display','none')
     });
     $('.btn-ok').click(()=>{
         if($('.editor').eq(1).val() == '常规'){
@@ -134,6 +135,7 @@ function show(fontNode) {
             })
         }
         $('.notepad-dlg-mask').remove();
+        $('#lid').css('display','none')
     })
 
 
