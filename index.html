@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>记事本</title>
+    <link rel="icon" href="./img/text.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+
+<body>
+
+    <div class="notepad-menubar">
+        <ul class="menu-title">
+            <li class="title">文件(F)</li>
+            <li class="title">编辑(E)</li>
+            <li class="title">格式(O)</li>
+            <li class="title">查看(V)</li>
+            <li class="title">帮助(H)</li>
+        </ul>
+        <ul class="menus" style="width: 202px;left:0">
+            <li class="menu-item">新建(N)<span class="shortcut">Ctrl+N</span></li>
+            <li class="menu-item">打开(O)...<span class="shortcut">Ctrl+O</span></li>
+            <li class="menu-item">保存(S)<span class="shortcut">Ctrl+S</span></li>
+            <li class="menu-item">另存为(A)...</li>
+            <li class="menu-hr"></li>
+            <li class="menu-item">页面设置(U)</li>
+            <li class="disabled menu-item">打印(P)<span class="shortcut">Ctrl+P</span></li>
+            <li class="menu-hr"></li>
+            <li class="menu-item">退出(X)</li>
+        </ul>
+        <ul class="menus" style="width: 218px;left:58px">
+            <li class="disabled menu-item">撤销(U)<span class="shortcut">Ctrl+U</span></li>
+            <li class="menu-hr"></li>
+            <li class="menu-item">剪切(T)...<span class="shortcut">Ctrl+X</span></li>
+            <li class="disable menu-item">复制(C)<span class="shortcut">Ctrl+C</span></li>
+            <li class="disable menu-item">粘贴(P)<span class="shortcut">Ctrl+V</span></li>
+            <li class="disable menu-item">删除(L)<span class="shortcut">Del</span></li>
+            <li class="menu-hr"></li>
+            <li class="menu-item">使用Bing搜索...<span class="shortcut">Ctrl+E</span></li>
+            <li class="disable menu-item">查找(F)...<span class="shortcut">Ctrl+F</span></li>
+            <li class="disable menu-item">查找下一个(N)<span class="shortcut">F3</span></li>
+            <li class="menu-item">替换(R)...<span class="shortcut">Ctrl+H</span></li>
+            <li class="menu-item">转到(G)...<span class="shortcut">Ctrl+G</span></li>
+            <li class="menu-hr"></li>
+            <li class="menu-item">全选(A)<span class="shortcut">Ctrl+A</span></li>
+            <li class="menu-item">时间/日期(D)<span class="shortcut">F5</span></li>
+        </ul>
+        <ul class="menus" style="width: 156px;left:116px">
+            <li class="menu-item">自动换行(W)</li>
+            <li class="menu-item">字体(F)...</li>
+        </ul>
+        <ul class="menus" style="width: 138px;left:174px">
+            <li class="menu-item">状态栏(S)</li>
+        </ul>
+        <ul class="menus" style="width: 166px;left:234px">
+            <li class="menu-item">查看帮助(H)...</li>
+            <li class="menu-item">关于记事本(A)</li>
+        </ul>
+    </div>
+    <div class="notepad-editor">
+        <textarea spellcheck="false" auto-size="none" autofocus="true" wrap="off"
+            style="overflow-x: scroll; font-family: Arial; font-size: 16px;"></textarea>
+    </div>
+    <div id="lid" style="display: none;width: 100%;height: 100%;position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 9;opacity: 0;"></div>
+    
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./js/text.js"></script>
+    <script src="./js/font.js"></script>
+</body>
+
+</html>

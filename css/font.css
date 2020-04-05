@@ -1,0 +1,124 @@
+.notepad-dlg-font {
+    z-index: 10;
+}
+.notepad-dlg-mask {
+    left: 0;
+    position: fixed;
+    top: 100px;
+    left: 35%;
+    z-index: 10;
+}
+.notepad-dlg-font .dialogbox {
+    height: 498px;
+    width: 468px;
+}
+.notepad-dlgbox {
+    border: 1px solid #0f7fd6;
+    box-shadow: 10px 10px 10px #d6d6d6;
+    box-sizing: border-box;
+    cursor: default;
+    margin: 0;
+    user-select: none;
+}
+.notepad-dlg-titlebar {
+    background-color: #fff;
+    font-size: 1.3em;
+    height: 30px;
+    font-size: 14px;
+    z-index: 100;
+}
+.notepad-dlg-titlebar .title {
+    left: 10px;
+    line-height: 30px;
+    position: absolute;
+}
+.notepad-dlg-titlebar .close-btn {
+    color: gray;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 30px;
+}
+.notepad-dlg-font .main {
+    height: 466px;
+}
+.notepad-dlg-main {
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    padding: 12px;
+    position: relative;
+}
+.notepad-dlg-main{
+    font-size: 12px;
+}
+.notepad-dlg-font .main .font-family, .notepad-dlg-font .main .font-style {
+    display: inline-block;
+    margin-right: 16px;
+}
+.notepad-com-list {
+    user-select: none;
+    width: 200px;
+}
+.notepad-com-list .editor {
+    border: 1px solid #0078d7;
+    box-sizing: border-box;
+    font-size: 1em;
+    height: 20px;
+    padding-left: 2px;
+    width: 100%;
+}
+.notepad-com-list .list {
+    background-color: #fff;
+    border: 1px solid #828790;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 116px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.notepad-com-list .list .item {
+    line-height: 16px;
+    padding-left: 2px;
+}
+.notepad-com-list .list .selected {
+    background-color: #0078d7;
+}
+
+.notepad-dlg-font .main .font-family, .notepad-dlg-font .main .font-style {
+    display: inline-block;
+    margin-right: 16px;
+}
+.notepad-dlg-font .main .font-size {
+    display: inline-block;
+}
+
+.notepad-dlg-font .main .sample {
+    border-color: #fff;
+    height: 78px;
+    margin-top: 28px;
+    width: 194px;
+}
+.notepad-dlg-font .main .script {
+    margin-top: 12px;
+}
+.notepad-dlg-font .main .script select{
+    width: 214px;
+    height: 24px;
+    font-size: 14px;
+}
+.notepad-dlg-font .main .btn-ok {
+    bottom: 10px;
+    position: absolute;
+    right: 110px;
+}
+.notepad-dlg-font .main .btn-cancel {
+    bottom: 10px;
+    position: absolute;
+    right: 16px;
+}
+.notepad-dlg-main .btn {
+    height: 28px;
+    width: 86px;
+}
