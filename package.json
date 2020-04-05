@@ -1,0 +1,20 @@
+{
+  "name": "Text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houdesen/Text.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/houdesen/Text/issues"
+  },
+  "homepage": "https://github.com/houdesen/Text#readme"
+}
